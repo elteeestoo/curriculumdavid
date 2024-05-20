@@ -1,0 +1,115 @@
+h2{
+  color: black;
+  font-family: "Poetsen One";
+  font-size: 40px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poetsen One";
+  
+}
+
+.proyect {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/media/fondo.jpg");
+  background-attachment: fixed;
+}
+
+.proyect-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  
+  
+}
+
+.proyect-box {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: aquamarine;
+  border-radius: 10px;
+  width: 80%;
+  margin-top: 50px;
+  padding: 1rem;
+  margin-bottom: 50px;
+  -webkit-box-shadow: 0px 0px 20px 0px aquamarine;
+  -moz-box-shadow: 0px 0px 20px 0px aquamarine;
+  box-shadow: 0px 0px 20px 0px aquamarine;
+}
+
+.proyect-body {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  width: 100%;
+  padding: 1rem;
+}
+
+.proyect-body h3 {
+  width: 100%;
+  text-align: center;
+}
+
+.proyect-body-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 30%;
+  padding: 1rem;
+  align-items: center;
+  height: 500px;
+  background-color: beige;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+
+.proyect-body-content:hover {
+  background-color: black;
+  color: white;
+  transform: scale(1.05);
+  transition: 0.7s;
+}
+
+.proyect-body-content h4{
+  text-align: center;
+  width: 100%;
+}
+
+.proyect-body-content p {
+  display: none;
+  text-align: center;
+
+}
+
+.proyect-body-content:hover p{
+  display: flex;
+}
+
+.proyect-body-content a{
+  display: none;
+  text-align: center;
+  background-color: beige;
+  border-radius: 10px;
+  padding: 0.5rem;
+  text-decoration: none;
+  color: black;
+  transition: 0.5s;
+}
+
+.proyect-body-content:hover a{
+  display: flex;
+}
+
+.proyect-body-content a:hover{
+  transform: scale(1.1);
+  transition: 0.5s;
+}
